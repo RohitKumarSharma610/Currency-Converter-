@@ -42,9 +42,9 @@ const [convertedamount , setConvertedAmount] = useState();
     fetch(`https://api.frankfurter.app/latest?amount=${amount}&from=${fromCurrency}&to=${d || toCurrency}`)
     .then((response) => response.json())
     .then((data) => {
-    console.log(d , data)
+    // console.log(d , data)
        if(d) {
-        setTocurrency(d)
+        // setTocurrency(d)
         setConvertedAmount(data.rates[d]);
       } else{
         setConvertedAmount(data.rates[toCurrency]);
