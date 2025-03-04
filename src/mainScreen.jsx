@@ -65,6 +65,8 @@ const [convertedamount , setConvertedAmount] = useState();
     setFromcurrency(toCurrency);
     setTocurrency(fromCurrency);
 
+     convertcurrency()
+
    });
 
    useEffect(()=>{
@@ -94,7 +96,7 @@ const [convertedamount , setConvertedAmount] = useState();
         </div>
 
         <div className='flex justify-center mt-6'>
-          <button onClick={()=>convertcurrency(false)} className='px-5 py-2 bg-indigo-500 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500'>Convert</button>
+          <button onClick={()=>convertcurrency(false)} className='px-5 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-indigo-500'>Convert</button>
         </div>
 
         <div className='mt-4 text-lg font-medium text-right text-green-600'>

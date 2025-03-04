@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgimg{
+    background-image: url(../public/money-7881948_1280.jpg);
+    /* filter: blur(10px); */
+}
